@@ -55,7 +55,7 @@ const ModelSwitcher = ({ scale, isMobile }) => {
         speed: 2,
         zoom: 1,
         azimuth: [-Infinity, Infinity],
-        polar: [-Infinity, Infinity],
+        // polar: [-Infinity, Infinity],
         config: {mass:1, tension: 0, friction: 2},
         global:true
     }
