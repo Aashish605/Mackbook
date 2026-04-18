@@ -4,11 +4,11 @@ import { navLinks } from '../../constants/index.js'
 const Navbar = () => {
     return (
         <header>
-            <nav>
+            <nav className='px-3'>
                 <img src="/logo.svg" alt="logo" />
 
                 <ul>
-                    {navLinks.map(({label}) => (
+                    {navLinks.map(({ label }) => (
                         <li key={label}>
                             <a href={label}>{label}</a>
                         </li>
