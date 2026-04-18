@@ -13,6 +13,7 @@ const fadeMeshes = (group, opacity) => {
 
     group.traverse((child) => {
         if(child.isMesh) {
+            
             child.material.transparent = true;
             gsap.to(child.material, { opacity, duration: ANIMATION_DURATION })
         }
